@@ -1,68 +1,143 @@
-<h1 align="center">Hi 👋, I'm Mashal Farhat</h1>
-<h3 align="center">Full-Stack App Developer | Flutter Enthusiast | UI/UX Explorer</h3>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lingo Fusion | Learn Languages in Real Time</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #1e3c72, #2a5298);
+      color: #fff;
+    }
+    header {
+      text-align: center;
+      padding: 80px 20px 40px;
+    }
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2em;
+    }
+    .cta-buttons {
+      margin-top: 20px;
+    }
+    .cta-buttons a {
+      background: #fff;
+      color: #1e3c72;
+      padding: 10px 20px;
+      margin: 5px;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .cta-buttons a:hover {
+      background: #f7c52c;
+      color: #000;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .features, .tech-stack {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .feature, .tech {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      border-radius: 12px;
+      width: 200px;
+      text-align: center;
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      font-size: 0.9em;
+      background-color: rgba(0,0,0,0.3);
+    }
+    img.screenshot {
+      max-width: 100%;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
 
----
+<header>
+  <h1>Lingo Fusion</h1>
+  <p>Master new languages through real-time conversations with native speakers.</p>
+  <div class="cta-buttons">
+    <a href="#">🌍 Learn More</a>
+    <a href="#">📲 Download Demo</a>
+  </div>
+</header>
 
-## 💫 About Me
+<section>
+  <h2>📘 About the Project</h2>
+  <p style="text-align: center;">
+    Lingo Fusion is a mobile application designed to bridge linguistic and cultural gaps. 
+    Using real-time video chat, speech-to-text, and natural language processing (NLP), 
+    it helps users practice pronunciation, have conversations with native speakers, and 
+    explore languages in a practical, immersive way.
+  </p>
+</section>
 
-🔭 I’m currently working on a language learning app that connects users with native speakers for real-time conversations using advanced NLP.  
-👯 I’m looking to collaborate on educational tech projects or anything that enhances user experiences.  
-🤝 I’m looking for help with advanced UI/UX design techniques to improve my current project.  
-🌱 I’m currently learning seamless, user-friendly UI/UX design.  
-💬 Ask me about app development with **Flutter**, **Kotlin**, and **SQL backend integration**.  
-⚡ Fun fact: I love solving puzzles — whether it's debugging code or tackling escape rooms!
+<section>
+  <h2>✨ Key Features</h2>
+  <div class="features">
+    <div class="feature">🎥 Real-time Video Chat</div>
+    <div class="feature">🗣️ Speech-to-Text Practice</div>
+    <div class="feature">🧠 NLP-based Feedback</div>
+    <div class="feature">📈 Personalized Progress Tracking</div>
+    <div class="feature">💬 Multi-language Support</div>
+  </div>
+</section>
 
----
+<section>
+  <h2>🛠️ Built With</h2>
+  <div class="tech-stack">
+    <div class="tech">Flutter</div>
+    <div class="tech">Firebase</div>
+    <div class="tech">Dart</div>
+    <div class="tech">Node.js</div>
+    <div class="tech">Python + NLTK</div>
+    <div class="tech">Figma (UI/UX)</div>
+  </div>
+</section>
 
-## 🌐 Socials
+<section>
+  <h2>📸 Preview</h2>
+  <p style="text-align: center;">Add screenshots or demo video thumbnails below.</p>
+  <img class="screenshot" src="screenshot1.png" alt="App Screenshot 1"/>
+  <img class="screenshot" src="screenshot2.png" alt="App Screenshot 2"/>
+</section>
 
-[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/misho_30)  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/mashal-farhat)  
-[![Email](https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white)](mailto:farahtmashal@gmail.com)
+<section>
+  <h2>📬 Get In Touch</h2>
+  <p style="text-align: center;">
+    💼 <a href="https://www.linkedin.com/in/mashal-farhat/" target="_blank" style="color:#f7c52c;">LinkedIn</a> | 
+    📧 <a href="mailto:farahtmashal@gmail.com" style="color:#f7c52c;">Email</a> | 
+    💻 <a href="https://github.com/Mishi" style="color:#f7c52c;">GitHub</a>
+  </p>
+</section>
 
----
+<footer>
+  © 2025 Mashal Farhat — Crafted with 💛 for language learners everywhere.
+</footer>
 
-## 💻 Tech Stack
-
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)
-![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
-![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
-![Microsoft SQL Server](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
-![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
-![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
-![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
-![Scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Mishi&show_icons=true&theme=radical" width="45%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=Mishi&theme=radical" width="45%" />
-</p>
-
----
-
-### ✍️ Dev Quote of the Day
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
----
-
-### 👁️‍🗨️ Visitors
-[![](https://visitcount.itsvg.in/api?id=Mashal-Farhat&icon=0&color=6)](https://visitcount.itsvg.in)
-
----
-
-<!-- Made with love by Mashal Farhat | Inspired by GPRM: https://gprm.itsvg.in -->
+</body>
+</html>
