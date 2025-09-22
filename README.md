@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Mashal Farhat</h1>
-<h3 align="center">Full-Stack App Developer | Flutter Enthusiast | UI/UX Explorer</h3>
+<h3 align="center">Full-Stack App Developer | Flutter Enthusiast | UI/UX Designer</h3>
 
 ---
 
